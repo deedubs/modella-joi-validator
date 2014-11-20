@@ -1,6 +1,8 @@
 # Modella Joi Validator
 [![Build Status](https://drone.io/github.com/deedubs/modella-joi-validator/status.png)](https://drone.io/github.com/deedubs/modella-joi-validator/latest)
 
+Use Joi for Modella validations. Exposes schema as `Model.joiSchema` for use in hapi payload validation
+
 ## Usage
 
 ```javascript
