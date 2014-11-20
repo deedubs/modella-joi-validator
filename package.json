@@ -1,0 +1,36 @@
+{
+  "name": "modella-joi",
+  "version": "1.0.0",
+  "description": "Use Joi for Modella validations and export schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul test node_modules/.bin/_mocha"
+  },
+  "author": "Dan Williams <me@deedubs.com> (http://deedubs.com)",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^4.9.0",
+    "modella": "^0.2.12"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:deedubs/modella-joi-validator.git"
+  },
+  "keywords": [
+    "modella",
+    "joi",
+    "validator"
+  ],
+  "bugs": {
+    "url": "https://github.com/deedubs/modella-joi-validator/issues"
+  },
+  "homepage": "https://github.com/deedubs/modella-joi-validator"
+}
